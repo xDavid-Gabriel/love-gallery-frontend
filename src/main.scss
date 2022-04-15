@@ -1,0 +1,52 @@
+$theme-colors: (
+  "primary": #FF4D5A,
+  "secondary": #2E0F0D,
+  "success": #fff,
+
+);
+
+//BOTONES
+$btn-border-radius: 50px;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Henny Penny', cursive;
+  font-weight: 400 !important;
+  color: #2E0F0D;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #2E0F0D !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.font-serif {
+  font-family: 'Henny Penny', cursive;
+  font-weight: 400 !important;
+  color: #2E0F0D;
+}
+
+.font-body {
+  font-family: 'Cabin', sans-serif;
+  color: #2E0F0D !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+  .min-md-vh-100 {
+    min-height: 100vh;
+  }
+
+}

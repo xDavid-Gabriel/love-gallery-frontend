@@ -1,0 +1,103 @@
+/* Inicio */
+.aventura{
+  width: 100%;
+  height: 500px;
+  /* position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  
+
+}
+.boton-intro{
+  border:none;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+.boton-intro:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.flecha{
+  width: 20px;
+  height: 20px;
+}
+
+/*Intro*/
+.carl-elie{
+  width: 100%;
+}
+/*Publicacion*/
+.tarjeta{
+  background: white;
+  padding: 10px;
+ 
+}
+.img-publicaciones{
+ width: 100%;
+ height: 200px;
+ object-fit: cover;
+ object-position: center;
+
+ margin-bottom: 10px;
+}
+/*Form*/
+.input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid #2E0F0D;
+  margin: 10px 0;
+  background: transparent;
+ 
+}
+.form-control{
+  border-radius: 30px !important;
+  color:#2E0F0D !important
+}
+.input:focus{
+  outline: none;
+}
+.img-form{
+ 
+width: 100%;
+
+}
+@media (min-width: 400px) {
+  .img-publicaciones{
+
+    height: 400px;
+   }
+}
+@media (min-width: 768px) {
+  .carl-elie{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+  }
+  .img-publicaciones{
+
+    height: 210px;
+   }
+   .img-form{
+    width: 450px;
+    height: 450px;
+  
+  }
+
+}
+@media (min-width: 1200px) {
+  .img-publicaciones{
+
+    height: 210px;
+   }
+}
